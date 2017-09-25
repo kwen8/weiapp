@@ -7,9 +7,16 @@
   .navbar .navbar-header .navbar-brand {
     height: 88px;
     padding: 23px 15px; }
-  .navbar .navbar-nav li a {
-    line-height: 40px;
-    padding: 24px 20px; }
+  .navbar .navbar-nav {
+    width: 77%;
+    float: right; }
+    .navbar .navbar-nav li {
+      width: 16.6%; }
+      .navbar .navbar-nav li a {
+        text-align: center;
+        line-height: 40px;
+        padding: 24px 15px;
+        white-space: nowrap; }
 
 .carousel .carousel-inner {
   background: url("../images/banner.jpg") top center no-repeat;
@@ -34,7 +41,8 @@
       font-weight: 900; }
     .section2 .col-md-6 .content p {
       font-size: 14px;
-      color: #cccccc; }
+      color: #cccccc;
+      line-height: 25px; }
 
 .section {
   text-align: center; }

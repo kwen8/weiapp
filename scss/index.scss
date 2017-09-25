@@ -12,10 +12,15 @@
     }
   }
   .navbar-nav {
+    width: 77%;
+    float: right;
     li {
+      width: 16.6%;
       a {
+        text-align: center;
         line-height: 40px;
-        padding: 24px 20px;
+        padding: 24px 15px;
+        white-space: nowrap;
       }
     }
   }
@@ -54,6 +59,7 @@
       p {
         font-size: 14px;
         color: #cccccc;
+        line-height: 25px;
       }
     }
   }
